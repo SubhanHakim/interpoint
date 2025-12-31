@@ -14,8 +14,8 @@ const Footer = () => {
 
                 {/* Right: Minimal Links */}
                 <div className="flex items-center gap-8">
-                    <MinimalLink href="https://x.com" label="X / TERMINAL" />
-                    <MinimalLink href="https://pump.fun" label="PUMP.FUN" />
+                    <MinimalLink href="https://x.com/Interpoint_dev" label="X / TERMINAL" />
+                    <MinimalLink href="https://pump.fun/coin/BWN7cMhZ2WvHnpYRbEMBwND2py2twpkDtVXWcvFnpump" label="PUMP.FUN" />
                 </div>
             </div>
         </footer>
