@@ -33,8 +33,8 @@ const LandingOverlay = () => {
 
                     {/* Action Buttons */}
                     <div className="flex gap-6 pointer-events-auto">
-                        <SocialButton href="https://x.com" label="X / TERMINAL" />
-                        <SocialButton href="https://pump.fun" label="PUMP.FUN" />
+                        <SocialButton href="https://x.com/i/communities/2006234565036159007" label="X / TERMINAL" />
+                        <SocialButton href="#" label="PUMP.FUN" />
                     </div>
                 </div>
             </main>
