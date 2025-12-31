@@ -1,5 +1,5 @@
 
-import { useEffect, useState } from 'react';
+import { useEffect } from 'react';
 import { createPortal } from 'react-dom';
 import Constellation from '../../components/canvas/Constellation';
 
@@ -265,7 +265,7 @@ const ObservationTerminal = ({ observationId, onClose }: ObservationTerminalProp
                         <span className="text-zinc-600">woven by:</span>
                         {data.participants.map((p, i) => (
                             <span key={i} className={`${i % 3 === 0 ? 'text-orange-400' :
-                                    i % 3 === 1 ? 'text-emerald-400' : 'text-cyan-400'
+                                i % 3 === 1 ? 'text-emerald-400' : 'text-cyan-400'
                                 }`}>
                                 {p}{i < data.participants.length - 1 ? ',' : ''}
                             </span>
